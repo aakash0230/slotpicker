@@ -1,10 +1,36 @@
 .App {
   text-align: center;
+  margin: 5%;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+.parent {
+  margin: 1rem;
+  padding: 5px 5px;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.select-date{
+  margin-right: 20px;
+  flex-basis : 30%;
+}
+
+.select-slot{
+  flex-basis: 70%;
+}
+
+.child {
+  display: inline-block;
+  padding: 5px 5px;
+  vertical-align: middle;
+  margin: 4px;
 }
 
 @media (prefers-reduced-motion: no-preference) {
